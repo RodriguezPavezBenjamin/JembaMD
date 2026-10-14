@@ -1,0 +1,14 @@
+[server]
+address = "127.0.0.1"
+showEmailPrompt = false
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"
+primaryColor = "#5ff2cd"
+backgroundColor = "#081323"
+secondaryBackgroundColor = "#0b2133"
+textColor = "#e2edf4"
+font = "monospace"

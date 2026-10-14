@@ -1,0 +1,51 @@
+.venv/
+__pycache__/
+*.pyc
+.logs/
+.webview/
+
+para_compartir/
+
+# Conversiones, documentos privados y estado de uso
+/salidas/
+/.logs/
+/.webview/
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+*.xlsm
+*.csv
+
+# Configuracion privada
+.env
+.env.*
+!.env.example
+**/secrets.toml
+**/credentials.toml
+*.pem
+*.key
+
+# Entornos, compilaciones y distribuciones
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+/build/
+/dist/
+/para_compartir/
+*.exe
+*.dll
+*.zip
+*.rar
+*.7z
+*.log
+
+# Archivos de Windows
+desktop.ini
+Thumbs.db
+*.lnk
+

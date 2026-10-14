@@ -1,0 +1,38 @@
+JembaMD — Pixel Edition
+Convierte documentos a Markdown en tu computador.
+
+EMPEZAR
+1. Descomprime TODO el ZIP en una carpeta propia, por ejemplo Documentos\JembaMD.
+2. Abre JembaMD.exe. No necesita instalar Python ni ejecutar comandos.
+3. Carga documentos, convierte, revisa y elige dónde guardar los .md.
+4. Puedes editar el nombre de la carpeta antes de guardar.
+
+Mantén JembaMD.exe junto a runtime, assets y los demás archivos.
+Puedes crear un acceso directo al ejecutable; no lo muevas solo.
+Para compartir la app, envía el ZIP original, que no contiene tus documentos.
+
+REQUISITOS
+- Windows 10/11 de 64 bits (x64).
+- Microsoft Edge WebView2 Runtime. Si falta, descarga Evergreen x64
+  desde el sitio oficial: https://developer.microsoft.com/microsoft-edge/webview2/
+- Para PDF escaneados: un idioma OCR instalado en Windows. Se prefiere español.
+  Si falta, agrégalo en Configuración > Hora e idioma > Idioma y región.
+  Los PDF con texto y los documentos Word no necesitan OCR.
+- La conversión funciona localmente. No necesita cuentas ni claves de API.
+
+ARCHIVOS
+PDF, DOCX, PPTX, XLSX, XLS, HTML, TXT, MD, CSV, JSON y XML.
+Hasta 50 MB por archivo y 200 MB por lote.
+Entrega un Markdown por documento, imágenes recuperadas de Word y _resumen.json.
+Los originales se conservan. Si el nombre de carpeta ya existe, añade un número.
+Revisa cifras, tablas y nombres reconocidos por OCR contra el documento original.
+
+SI NO ABRE
+Comprueba que extrajiste todo y que la carpeta permite escribir archivos.
+Comprueba WebView2. Los detalles del fallo quedan en .logs dentro de la carpeta.
+Esta edición es para Windows x64; no está preparada para macOS o Linux.
+El ejecutable no tiene firma digital comercial.
+
+CRÉDITOS Y LICENCIAS
+Python y las bibliotecas incluidas conservan sus licencias originales.
+Consulta COMPONENTES.txt, runtime/LICENSE.txt y los avisos de cada biblioteca.
